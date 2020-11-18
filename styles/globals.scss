@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+$primary: #9b6d24;
+
 html,
 body {
   padding: 0;
@@ -8,7 +10,6 @@ body {
   font-size: 10px;
   scroll-behavior: smooth;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -20,8 +21,7 @@ a {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container-full {
@@ -29,32 +29,31 @@ a {
   min-height: 100vh;
   margin: 0 auto;
 }
-
 .container-half {
   width: 80%;
   min-height: 50vh;
   margin: 0 auto;
 }
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 li {
   padding: 0;
   margin: 0;
 }
 
-#active::after {
-  content: "";
-  display: block;
-  height: 0.3rem;
-  background-color: #9b6d24;
+#active {
+  // background-color: blue !important;
+  // color: red !important;
+  &::after {
+    content: "";
+    display: block;
+    height: 0.3rem;
+    background-color: $primary;
+  }
 }
-
 .carousel-container {
   z-index: 1;
 }
-/*# sourceMappingURL=globals.css.map */
