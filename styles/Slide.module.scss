@@ -265,7 +265,8 @@ $primary: #9b6d24;
 }
 @media screen and (min-height: 1100px) {
   .slide_1,
-  .slide_2 {
+  .slide_2,
+  .slide_3 {
     min-height: 50vh;
   }
 }
@@ -279,7 +280,8 @@ $primary: #9b6d24;
 }
 @media screen and (max-width: 360px) {
   .slide_1,
-  .slide_2 {
+  .slide_2,
+  .slide_3 {
     > div {
       h3 {
         font-size: 2.4rem !important;
