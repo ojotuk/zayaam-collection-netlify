@@ -109,23 +109,90 @@ $primary: #9b6d24;
 }
 
 .slide_2 {
-  animation-name: slide_2;
   width: 100vw;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/184575.jpg");
+  background-image: url("/slide01.webp");
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  // // animation
+  // animation-duration: 20s;
+  // animation-timing-function: ease-in-out;
+  // animation-iteration-count: infinite;
+  // animation-fill-mode: both;
+  overflow: hidden;
+  > div {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    // line-height: 0.5rem;
+    .welcomeLogo,
+    .texture {
+      display: none;
+    }
+    h3 {
+      font-size: 4rem;
+      font-weight: 900;
+      color: #f7f7f7;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.3rem;
+      transform: translateX(-0.1rem);
+      margin: 1rem 0 1.5rem 0rem;
+    }
+    span {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    button {
+      background-color: #f7f7f7;
+      // width: 30rem;
+      padding: 1rem 3rem;
+      border-radius: 2.4rem;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      &:hover {
+        background-color: $primary;
+        color: white;
+      }
+    }
+  }
+  .guy_preview,
+  .woman_preview {
+    display: none;
+  }
+}
+
+.slide_3 {
+  width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/slide02.webp");
   align-items: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   // animation
-  animation-duration: 20s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
+  // animation-duration: 20s;
+  // animation-timing-function: ease-in-out;
+  // animation-iteration-count: infinite;
+  // animation-fill-mode: both;
   overflow: hidden;
   > div {
     width: 90%;

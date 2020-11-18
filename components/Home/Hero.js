@@ -39,7 +39,7 @@ const descriptionSlide = [
   {
     spn: "men collection from 2018",
     link: "/",
-    name: styles.slide_2,
+    name: styles.slide_3,
     caption: "New Arrivals",
     id: 3,
   },
@@ -48,9 +48,9 @@ const descriptionSlide = [
 const Hero = (props) => {
   const h3 = useRef(null);
   const scale = () => {
-    console.log(h3.current.classList.value);
-    h3.current.classList.add("some2");
-    h3.current.classList.remove("some2");
+    // console.log(h3.current.classList.value);
+    // h3.current.classList.add("some2");
+    // h3.current.classList.remove("some2");
   };
   return (
     <>
