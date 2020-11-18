@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
