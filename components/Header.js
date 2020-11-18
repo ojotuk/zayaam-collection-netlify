@@ -1,15 +1,8 @@
 import React, { useState, useRef } from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleDown,
-  faArrowDown,
-  faBars,
-  faShoppingBag,
-  faTimes,
-  faUserCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = ({ active }) => {
   const [open, setOpen] = useState(false);
